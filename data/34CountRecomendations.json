@@ -1,0 +1,64 @@
+{
+"name":"root",
+"children": [
+	{"name": "1 NSs",
+	"children": [
+		{"name": "1 ASNs",
+		"children": [
+			{"name": "1 país", "size": 6342},
+			{"name": "2 países", "size": 4}
+		]},
+		{"name": "2 ASNs",
+		"children": [
+			{"name": "1 país", "size": 40},
+			{"name": "2 países", "size": 44}
+		]},
+		{"name": "+3 ASNs",
+		"children": [
+			{"name": "1 país", "size": 9},
+			{"name": "2 países", "size": 6}
+		]}
+	]},
+	{"name": "2 NSs",
+	"children": [
+		{"name": "1 ASNs",
+		"children": [
+			{"name": "1 país", "size": 211658},
+			{"name": "2 países", "size": 1745},
+			{"name": "+3 países", "size": 4}
+		]},
+		{"name": "2 ASNs",
+		"children": [
+			{"name": "1 país", "size": 17409},
+			{"name": "2 países", "size": 17191},
+			{"name": "+3 países", "size": 402}
+		]},
+		{"name": "+3 ASNs",
+		"children": [
+			{"name": "1 país", "size": 3240},
+			{"name": "2 países", "size": 519},
+			{"name": "+3 países", "size": 27}
+		]}
+	]},
+	{"name": "+3 NSs",
+	"children": [
+		{"name": "1 ASNs",
+		"children": [
+			{"name": "1 país", "size": 60038},
+			{"name": "2 países", "size": 1140},
+			{"name": "+3 países", "size": 436}
+		]},
+		{"name": "2 ASNs",
+		"children": [
+			{"name": "1 país", "size": 16106},
+			{"name": "2 países", "size": 16898},
+			{"name": "+3 países", "size": 2141}
+		]},
+		{"name": "+3 ASNs",
+		"children": [
+			{"name": "1 país", "size": 7786},
+			{"name": "2 países", "size": 46729},
+			{"name": "+3 países", "size": 4997}
+		]}
+	]}
+]}

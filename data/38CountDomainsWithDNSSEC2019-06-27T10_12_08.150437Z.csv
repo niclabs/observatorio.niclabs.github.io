@@ -1,0 +1,4 @@
+category,domains
+no_dnssec,492527
+dnssec_fail,1382
+dnssec_ok,2493
