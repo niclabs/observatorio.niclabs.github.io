@@ -2,7 +2,7 @@ let chart3ASNvsDomID = "#chart-3"
 let chart3ASNvsDom
 
 function getDataChart3ASNvsDom(){
-  let path = "/data/"+runid+"CountASNPerDomain"+date+ts+".csv"
+  let path = "./data/"+runid+"CountASNPerDomain"+date+ts+".csv"
   fetch(path, {
     method: 'GET',
     headers: {

@@ -7,7 +7,7 @@ let table8DNSSEC
 
 function getDataTable8DNSSEC(){
   //46CountDomainsWithDNSSEC2020-12-31T09_12_58.122685Z
-  let path = "/data/"+runid+"CountDomainsWithDNSSEC"+date+ts+".csv"
+  let path = "./data/"+runid+"CountDomainsWithDNSSEC"+date+ts+".csv"
   fetch(path, {
     method: 'GET',
     headers: {

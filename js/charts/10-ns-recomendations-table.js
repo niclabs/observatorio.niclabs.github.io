@@ -7,7 +7,7 @@ let table10RecomendacionesNS
 
 function getDataTable10RecomendacionesNS(){
   //63CountNameserverCharacteristics2021-03-30T09-38-15.481549Z
-  let path = "/data/"+runid+"CountNameserverCharacteristics"+date+ts+".csv"
+  let path = "./data/"+runid+"CountNameserverCharacteristics"+date+ts+".csv"
   fetch(path, {
     method: 'GET',
     headers: {

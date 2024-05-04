@@ -2,7 +2,7 @@ let chart4PaisesvsDomID = "#chart-4"
 let chart4PaisesvsDom
 
 function getDataChart4PaisesvsDom(){
-  let path = "/data/"+runid+"CountCountryPerDomain"+date+ts+".csv"
+  let path = "./data/"+runid+"CountCountryPerDomain"+date+ts+".csv"
   fetch(path, {
     method: 'GET',
     headers: {

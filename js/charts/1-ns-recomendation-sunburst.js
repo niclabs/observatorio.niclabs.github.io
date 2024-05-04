@@ -1,7 +1,7 @@
 let chart1NSRecomendationSunburstID = "chart-1"
 
 function getDataChart1NSRecomendationSunburst(){
-  let path = "/data/"
+  let path = "./data/"
   let selectedID = runid
   let fileName = 'CountRecomendations.json'
   let fullPath = path + selectedID + fileName

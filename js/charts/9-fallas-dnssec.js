@@ -19,7 +19,7 @@ function getDataChart9fallasDNSSEC(){
     let cur_date = CONFIG.runs[i].date
     let cur_ts = CONFIG.runs[i].timestamp
 
-    let path = "/data/"+cur_runid+"CountDomainsWithDNSSECErrors"+cur_date+cur_ts+".csv"
+    let path = "./data/"+cur_runid+"CountDomainsWithDNSSECErrors"+cur_date+cur_ts+".csv"
     fetch(path, {
       method: 'GET',
       headers: {

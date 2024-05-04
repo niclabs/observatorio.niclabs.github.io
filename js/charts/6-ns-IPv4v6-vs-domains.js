@@ -2,7 +2,7 @@ let chart6IPv4v6vsDomID = "#chart-6"
 let chart6IPv4v6vsDom
 
 function getDataChart6IPv4v6vsDom(){
-  let path = "/data/"+runid+"CountDomainsWithCountNSIps"+date+ts+".csv"
+  let path = "./data/"+runid+"CountDomainsWithCountNSIps"+date+ts+".csv"
   fetch(path, {
     method: 'GET',
     headers: {

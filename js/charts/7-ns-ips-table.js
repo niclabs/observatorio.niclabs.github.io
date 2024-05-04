@@ -7,7 +7,7 @@ let table7NSips
 
 function getDataTable7NSips(){
   //78CountDomainsWithCountNSIPExclusive2023-12-29T08-16-55.288706Z
-  let path = "/data/"+runid+"CountDomainsWithCountNSIPExclusive"+date+ts+".csv"
+  let path = "./data/"+runid+"CountDomainsWithCountNSIPExclusive"+date+ts+".csv"
   fetch(path, {
     method: 'GET',
     headers: {
